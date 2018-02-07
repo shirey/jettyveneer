@@ -21,4 +21,12 @@ public class StringHelper
 		if(value == null) return(true);
 		return(value.trim().equals(""));
 	}
+	
+	public static String unEscapeQuotes(String val)
+	{
+		if(val == null)
+			return(null);
+		String rVal = val.replace("\\\"", "\"");
+		return(rVal);
+	}	
 }
