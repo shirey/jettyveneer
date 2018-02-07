@@ -28,5 +28,12 @@ public class StringHelper
 			return(null);
 		String rVal = val.replace("\\\"", "\"");
 		return(rVal);
-	}	
+	}
+	
+	public static boolean equalsIgnoreCase(String val1, String val2)
+	{
+		if(val1 == null && val2 == null) return(true);
+		if(val1 == null || val2 == null) return(false);
+		return(val1.toUpperCase().trim().equals(val2.toUpperCase().trim()));
+	}
 }
