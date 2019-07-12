@@ -14,7 +14,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.source.level>1.8</java.source.level>
     <java.target.level>1.8</java.target.level>    
-    <jetty.version>9.4.8.v20171121</jetty.version>
+<!--    <jetty.version>9.4.8.v20171121</jetty.version> -->
+    <jetty.version>9.4.19.v20190610</jetty.version>
     <jersey.version>2.6</jersey.version>    
     <log4j.version>2.10.0</log4j.version>
   </properties>
